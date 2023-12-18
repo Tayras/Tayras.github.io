@@ -1,0 +1,116 @@
+@font-face {
+    font-family: typewriter;
+    src: url(fonts/tw.otf);
+}
+
+body {
+    text-align: center;
+    font-family: typewriter;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    align-content: center;
+}
+
+header {
+    text-align: center;
+    margin-right: 32px;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+    font-size: x-large;
+    padding: 20px
+}
+
+a.active {
+    color: white;
+}
+
+li {
+    padding: 10px 50px 10px 50px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: border-color .2s linear
+}
+
+li.active {
+    border-color: white;
+}
+
+li:hover {
+    border-color: white;
+}
+
+section {
+    margin-top: 15%
+}
+
+button {
+    margin-top: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    transition: border-color .2s
+}
+
+button a {
+    font-family: typewriter;
+    color: white;
+    transition: color .2s
+}
+
+button a:hover {
+    color: rgb(109, 109, 109);
+}
+
+button:hover {
+    border-color: rgb(109, 109, 109);
+}
+
+.container {
+    display: inline-block;
+}
+
+.text {
+    max-width: 800px;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    border-right: 3px solid;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: 
+        typing 1s steps(30),
+        cursor .5s step-end infinite alternate;
+}
+
+/* Cursor Blinking */
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+div {
+    display: inline-block;
+}
+
+p {
+    max-width: 800px;
+    text-align: center;
+    margin-top: 25%;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    width: 100%;
+}
