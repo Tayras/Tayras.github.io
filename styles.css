@@ -8,6 +8,14 @@
     src: url(fonts/tw.otf);
 }
 
+:root {
+    --primary-color:#ffffff;
+    --primary-color-dark:#000000;
+    --text-dark:#949494;
+    --white:#ffffff;
+    --background:#585858;
+}
+
 body {
     text-align: center;
     font-family: typewriter;
@@ -140,14 +148,6 @@ p {
 
 
 /* REVIEWS */
-
-:root {
-    --primary-color:#ffffff;
-    --primary-color-dark:#000000;
-    --text-dark:#949494;
-    --white:#ffffff;
-    --background:#585858;
-}
 
 *{
     padding: 0;
