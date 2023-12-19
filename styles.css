@@ -227,6 +227,7 @@ p {
 .card_details p {
     font-style: italic;
     color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1rem;
     text-align: left;
 }
