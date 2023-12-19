@@ -190,22 +190,23 @@ p {
 }
 
 .container_right {
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
     margin-top: 6rem;
     display: grid;
     gap: 2rem;
     overflow-y: scroll;
     overflow-x:visible;
     max-height: 48rem;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .container_right::-webkit-scrollbar {
-    display: none;
+    display: none; /* Opera and Chrome */
 }
-
-.container_right {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
 
 .card {
     padding: 1rem;
