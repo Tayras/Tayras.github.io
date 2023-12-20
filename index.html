@@ -1,34 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Tayras's Development Portfolio</title>
 
-    <link rel="stylesheet" href="styles.css" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Home - Tayras's Development Portfolio</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="active"><a class="active" href="./">Home</a></li>
-                <li><a href="./reviews">Contact</a></li><br/>
-                <div class="container">
-                    <h1 class="text">Tayras's Development Portfolio</h1>
-                </div>
-            </ul>
-        </nav>
-    </header>
-        <div>
-            <p>
-                Tayras is a Graphic Designer, Web, and Node.JS developer with over 4 years of experience in JavaScript and Node.JS,
-                2 years of experience in Lua, a few months of experience with HTML and CSS, and over 3 years of experience in Adobe graphic design software.
-            </p>
-        </div>
-    <div class="footer">
-        Copyright © 2023-2024, Tayras Development Portfolio.<br/>
-        MIT License
+
+    <div class="navbar">
+        <h2>Tayras's<br/>
+        Development<br/>
+        Portfolio.</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li id="skills"><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li id="about"><a href="#">About</a></li>
+        </ul>
+        <button class="hire-btn"><a target="_blank" href="https://discord.gg/HnhZnCWV8Q
+            ">Hire Me</a></button>
     </div>
+
+    <div class="main">
+        <h4>Hi, I'm <span>Tayras</span> 👋</h4>
+        <p class="title text">Creative freelance Developer</p>
+        <p class="subtitle">I design websites, create 2d graphics, and code discord bots!</p>
+        <img src="assets/logo.png">
+    </div>
+
+    <div class="guarantee">
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-check-shield'></i>
+            </div>
+            <div class="info">
+                <h3>4+</h3>
+                <p>Years Of Experiences</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-check-circle'></i>
+            </div>
+            <div class="info">
+                <h3>30+</h3>
+                <p>Completed Projects</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-laugh'></i>
+            </div>
+            <div class="info">
+                <h3>10+</h3>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+    </div>
+
+    <h5 class="seprator">Who I Am</h5>
+
+    <div class="about">
+        <img class="pfp" src="assets/who.png">
+        <div class="info">
+            <h3>About Me</h3>
+            <p>Hello, My name is Tayras. I have been developing things for over 4 years, where I first started
+                learning how to code my own discord bots. The first year coding discord bots what very difficult and frustrating, with
+                my bots only being able to preform the simplist task, as well as none of my bots has 24/7 hosting at the time. Although
+                through time and effort i've progressed far where to now, 4 years later, i can confidently say that my bots are some of
+                the best around. I have been in graphic design classes for 3 years, my first being during my Freshmen year in highschool to now,
+                including an extra year of experience where I was self-taught. I also started off making roblox games with friends
+                which didn't really get anywhere, until I started learning how to 3d model back in 2021 which helped gain me recognition
+                among the roblox game development community, where I was hired onto my first project which was a GAR border/roleplay type
+                game. Later my friend reached out to me and asked him to help out with this game him and someone he knew (DunGufed)
+                were buying soon and I agreed, this game later became my biggest success as of now. Me and DunGufed have progressed
+                far together and started our own game studio called BlueRain Development, which we plan to continue to pursue and improve
+                upon.
+            </p>
+            <button class="hire-btn"><a target="_blank" href="https://discord.gg/HnhZnCWV8Q">Hire Me</a></button>
+        </div>
+    </div>
+
+    <h5 class="seprator">My Skills</h5>
+
+    <div class="skills">
+        <div class="left">
+            <div class="info">
+                <h3>What My Programming Skills Included?</h3>
+                <p>
+                    I develop simple, response web-pages, mainly as a hobby. But more seriously I develop high-end
+                    discord-bots as well as quality 2d graphics. I have 4 years of experience in JavaScript, 3 years of
+                    experience in Graphic Design, 2 years in Lua and 3d Modeling, and a few weeks in HTML and CSS.
+                </p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="item">
+                <i class='bx bxl-html5'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-css3'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-javascript'></i>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="cols">
+            <div class="about-col">
+                <h3>Tayras's<br/>
+                    Development<br/>
+                    Portfolio.</h3>
+                <p>Creative Freelance Developer<br/><br/>
+                    Copyright © 2023, Tayras.<br/>
+                    MIT License</p>
+            </div>
+
+            <div class="links-col">
+                <h4>Useful Links</h4>
+                <a href="#">Home</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <div class="links-col">
+                <h4>Social Media</h4>
+                <a target="_blank" href="https://discord.gg/HnhZnCWV8Q
+                ">Discord</a>
+                <a href="#">Github</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
