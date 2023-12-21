@@ -210,7 +210,7 @@ body {
     color: var(--primary-color);
 }
 
-.seprator{
+.seperator{
     margin: 50px 50px 30px;
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0.08);
