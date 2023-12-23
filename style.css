@@ -106,6 +106,10 @@ body {
         cursor .5s step-end infinite alternate;
 }
 
+.card div ul {
+    list-style-type: none;
+}
+
 /* Cursor Blinking */
 @keyframes cursor {
     50% {
@@ -438,7 +442,7 @@ footer .cols .news-col form button i{
 .containerr {
     max-width: 1200px;
     margin: auto;
-    padding: 1rem;
+    padding: 5rem 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10rem;
@@ -558,6 +562,131 @@ footer .cols .news-col form button i{
     text-align: center;
     font-size: small;
     color:rgb(128, 128, 128)
+}
+
+/* SERVICES */
+
+.containerrr {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+.containerrr .header {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.containerrr .sub-header {
+    color:white;
+    text-align: center;
+}
+
+.pricing{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.pricing .card{
+    padding: 3rem 2rem;
+    background-color: #27272a;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, .4);
+}
+
+.pricing .card:hover{
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.pricing .card .content{
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.pricing .card h4{
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.pricing .card h3{
+    color: #fff;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px dashed #fff;
+}
+
+.pricing .card p{
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.pricing .card p i{
+    color: #ccc;
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.pricing .card button{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.pricing .card button:hover{
+    background-color: var(--primary-color);
+}
+
+.butn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.butn:hover{
+    background-color: var(--primary-color);
+}
+
+/* BASIC PLAN */
+
+.container .card {
+    text-align: center;
+    align-items: center;
+    margin: 2rem 5rem;
+    display: block;
+}
+
+.section {
+    padding: 2rem 1rem;
+}
+
+.containerrr .header {
+    margin-bottom: 2rem;
+}
+
+.containerrr .header span {
+    color: gold;
+    text-decoration: underline;
+}
+
+.containerrr .header span.diamond {
+    color: darkturquoise;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1100px) {
