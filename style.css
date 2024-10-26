@@ -744,6 +744,29 @@ footer .cols .news-col form button i{
 
 }
 
+/* GOLD PLAN */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background: transparent;
+    outline: 1px solid white;
+    color: white;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background: var(--primary-color)
+}
+
 @media screen and (max-width: 780px) {
     
     .navbar button{
